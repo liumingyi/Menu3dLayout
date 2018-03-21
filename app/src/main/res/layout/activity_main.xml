@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<top.liumingyi.menu3dlayout.Menu3dLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="top.liumingyi.menu3dlayout.MainActivity"
+    >
+
+  <FrameLayout
+      android:id="@+id/menu_frame"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      />
+
+  <FrameLayout
+      android:id="@+id/content_frame"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      />
+
+</top.liumingyi.menu3dlayout.Menu3dLayout>
